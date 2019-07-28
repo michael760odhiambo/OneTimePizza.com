@@ -16,5 +16,9 @@ dependencies, setup & installation instructions, contact & license information.
 
 # Installation Instruction
 
+# Contact
+* you can reach on social media through
+* E-mail : michaelodhiambo760@gmail.com
+
 
 
