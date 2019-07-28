@@ -21,7 +21,8 @@ a{
 }
 
 #heading{
-    color: green;
+    color:rgb(44, 1, 44);
+    text-shadow: 2px 3px 3px solid blue;
 
 }
 
