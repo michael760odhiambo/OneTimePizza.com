@@ -15,7 +15,7 @@ At OneTimePizza.com we offer service to our customers at their place of comfort
 # Setup
 
 # Installation Instruction
-    https://michael760odhiambo.github.io/OneTimePizza.com/
+    * https://michael760odhiambo.github.io/OneTimePizza.com/
 
 # Live link
 
