@@ -61,8 +61,20 @@ img{
 
 #foot{
     background-color: #38470b;
+    
+
+}
+footer{
+    color: aliceblue;
+    font-size: 20px;
+
 }
 
 body{
     text-align: center;
+}
+
+hr{
+    
+    
 }
