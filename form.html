@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js1/scripts1.js"></script>
+<link rel="stylesheet" href="css1/styles1.css">
+        <title>trail</title>
+        
+    </head>
+
+    <body>
+
+        <div class="container">
+          
+           <h1>Order now!</h1>
+           <div id="filblanks">
+              <form>
+                 <div class="form-group">
+                    <label for="person1">your name</label>
+                    <input id="person1" class="form-control" type="text">
+                 </div>
+  
+                 <div class="form-group">
+                  <label for="describe">Describe your ordered pizza in your own liking</label>
+                  <input id="describe" class="form-control" type="text">
+               </div>
+  
+                 <div class="form-group">
+                    <label for="size">size</label>
+                    <select id="size" class="form-control" type="text" name="size">
+                      <option value="small">small</option>
+                      <option value="medium">medium</option>
+                      <option value="large">large</option>
+                    </select>
+                 </div>
+
+
+                 <div class="form-group">
+                    <label for="crust">crust</label>
+                    <select id="crust" class="form-control">
+                      <option value="crispy">Crispy</option>
+                      <option value="stuffed">Stuffed</option>
+                      <option value="gluten-free">Gluten-free</option>
+                    </select>
+                 </div>
+
+
+                 <div class="form-group">
+                    <label for="exclamation">Toppings</label>
+                    <select id="toppings" class="form-control">
+                      <option value="pepperoni">Pepperoni</option>
+                      <option value="mushrooms">Mushrooms</option>
+                      <option value="onions">Onions</option>
+                      <option value="sausage">Sausage</option>
+                      <option value="extra cheese">Extra cheese</option>
+                      <option value="black olives">Black olives</option>
+                      <option value="green peppers">Green peppers</option>
+                    </select>
+                 </div>
+
+                 
+                 <div class="form-group">
+                    <label for="time">Time</label>
+                    <input id="time" class="form-control" type="text">
+                 </div>
+
+
+                 <button type="submit" class="btn-primary">Order</button>
+              </form>
+           </div>
+
+           
+           <div id="storys" class="jumbotron">
+              <h1>Are these your reguirements</h1>
+              <p>name: <span class="person1"></span>.</p>
+              <p>description: <span class="describe"></span></p>
+              <p>size: <span class="size"></span></p>
+              <p> crust: <span class="crust"></span></p>
+              <p>toppings: <span class="toppings"></span></p>
+              <p>time: <span class="time"></span></p>
+              
+           </div>
+        </div>
+     </body>
+</html>
