@@ -17,7 +17,7 @@ a{
     float: right;
     text-decoration: none;
     text-transform: uppercase;
-    color: red;
+    color: yellow;
 }
 
 #heading{
@@ -81,6 +81,6 @@ h3{
 }
 
 #pp{
-    font-size: 28px;
+    font-size: 35px;
     font-family: 'Great Vibes', cursive;
 }
