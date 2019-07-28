@@ -36,6 +36,7 @@ $(document).ready(function() {
       //$("p#storys").append("<p><span class='storys'>" + newStory.person +  "" + newStory.describe + newStory.crust +"" + newStory.toppings + "" + newStory.time + "</span></li>");
 
       prompt("please enter your location")
+      alert(" your order will be delivered to your location")
 
       
 
