@@ -3,7 +3,7 @@ At OneTimePizza.com we offer service to our customers at their place of comfort
 
 # Author
 ** Michael odhiambo
-dependencies, setup & installation instructions, contact & license information.
+
 # Technologies used
 ** HTML
 ** CSS
@@ -15,6 +15,9 @@ dependencies, setup & installation instructions, contact & license information.
 # Setup
 
 # Installation Instruction
+
+# Live link
+
 
 # Contact
 * you can reach on social media through
