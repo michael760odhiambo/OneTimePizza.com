@@ -9,6 +9,7 @@ function blanks(person, describe, size, crust, toppings,time){
 
 $(document).ready(function() {
   $("#filblanks form").submit(function(event) {
+    
       var person1Input = $("input#person1").val();
       var describeInput = $("input#describe").val();
       var sizeInput = $("input#size").val();
