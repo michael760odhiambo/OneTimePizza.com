@@ -42,4 +42,65 @@ $(document).ready(function() {
 
       event.preventDefault();
   });
+  $("select#size").change(function(){
+    window.selectedsize = $(this).children("option:selected").val()
+    $("#output1").text(window.selectedsize)
+    if (window.selectedsize ==="big"){
+      window.money_size = 1300;
+    }
+    else if (window.selectedsize ==="medium"){
+      window.money_size = 1000;
+    }
+    else if (window.selectedsize ==="small"){
+      window.money_size = 600;
+    }
+  })
+  $("select#crust").change(function(){
+    window.selectedcrust = $(this).children("option:selected").val()
+    $("#output2").text(window.selectedcrust)
+    if (window.selectedcrust ==="crispy"){
+      window.money_crust = 50;
+    }
+    else if (window.selectedcrust ==="stuffed"){
+      window.money_crust = 70;
+    }
+    else if (window.selectedcrust ==="gluten-free"){
+      window.money_crust = 80;
+    }
+  })
+  $("select#toppings").change(function(){
+    window.selectedtoppings = $(this).children("option:selected").val()
+    $("#output3").text(window.selectedtoppings)
+    if (window.selectedtoppings ==="pepperoni"){
+      window.money_toppings = 50;
+    }
+    else if (window.selectedtoppings ==="mushrooms"){
+      window.money_toppings = 60;
+    }
+    else if (window.selectedtoppings ==="onions"){
+      window.money_toppings = 80;
+    }
+    else if (window.selectedtoppings ==="sausage"){
+      window.money_toppings = 95;
+    }
+    else if (window.selectedtoppings ==="extra-cheese"){
+      window.money_toppings = 65;
+    }
+    else if (window.selectedtoppings ==="black-olives"){
+      window.money_toppings = 40;
+    }
+    else if (window.selectedtoppings ==="green peppers"){
+      window.money_toppings = 80;
+    }
+  
+  
+  })
+  $("#action").click(function(){
+    var number_of_pizzas=$("#num").val();
+    var total = number_of_pizzas*(window.money_size+window.money_crust+window.money_toppings)
+    $("#output4").text(total);
+
+
+  })
+  
 });
