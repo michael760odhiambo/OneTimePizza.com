@@ -26,6 +26,8 @@
                   <label for="describe">Describe your ordered pizza in your own liking</label>
                   <input id="describe" class="form-control" type="text">
                </div>
+
+               
   
                  <div class="form-group">
                     <label for="size">size</label>
@@ -35,8 +37,7 @@
                       <option value="large">large @ sh.1300</option>
                     </select>
                  </div>
-
-
+                 
                  <div class="form-group">
                     <label for="crust">crust</label>
                     <select id="crust" class="form-control">
@@ -65,23 +66,39 @@
                     <label for="time">Time</label>
                     <input id="time" class="form-control" type="text">
                  </div>
+                 
+                 <div class="form-group">
+                     <label for="total">total</label><br>
+                      <input type="number" id = "num" class="form-control">
+ 
+                  </div>
 
 
-                 <button type="submit" class="btn-primary">Order</button>
+
+                 <button type="submit" class="btn-primary" id ="action">Order</button>
                  <button type="submit" class="btn-warning"><a href="form1.html">Another Order</a></button>
-              </form>
+               </form>
            </div>
+           
 
            
            <div id="storys" class="jumbotron">
               <h1>Are these your reguirements</h1>
               <p>name: <span class="person1"></span>.</p>
               <p>description: <span class="describe"></span></p>
-              <p>size: <span class="size"></span></p>
-              <p> crust: <span class="crust"></span></p>
-              <p>toppings: <span class="toppings"></span></p>
               <p>time: <span class="time"></span></p>
               
+              <p>size: <div id="output1"></div></p>
+               <p>crust: <div id="output2"></div></p>
+               <p>toppings: <div id="output3"></div></p>
+               <p>totals: <div id="output4"></div></p>
+              
+           </div>
+
+           
+               
+
+           
            </div>
         </div>
      </body>
