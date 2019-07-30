@@ -10,11 +10,10 @@ At OneTimePizza.com we offer service to our customers at their place of comfort
 * BOOTSTRAP
 * JAVASCRIPT
 
-# Depenadancies
 
-# Setup
+# Setup/Installation Instruction
+* git clone it from my repository into your machine 
 
-# Installation Instruction
     
 
 # Live link

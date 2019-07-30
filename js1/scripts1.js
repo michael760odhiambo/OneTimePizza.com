@@ -37,6 +37,7 @@ $(document).ready(function() {
       //$("p#storys").append("<p><span class='storys'>" + newStory.person +  "" + newStory.describe + newStory.crust +"" + newStory.toppings + "" + newStory.time + "</span></li>");
 
       prompt("please enter your location")
+      confirm("your delivery cost is sh.200")
       alert(" your order will be delivered to your location")
 
       
@@ -98,7 +99,7 @@ $(document).ready(function() {
   })
   $("#action").click(function(){
     var number_of_pizzas=$("#num").val();
-    var total = number_of_pizzas*(window.money_size+window.money_crust+window.money_toppings)
+    var total = number_of_pizzas*(window.money_size+window.money_crust+window.money_toppings+)
     $("#output4").text(total);
 
 
