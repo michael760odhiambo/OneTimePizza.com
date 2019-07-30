@@ -99,7 +99,7 @@ $(document).ready(function() {
   })
   $("#action").click(function(){
     var number_of_pizzas=$("#num").val();
-    var total = number_of_pizzas*(window.money_size+window.money_crust+window.money_toppings+)
+    var total = number_of_pizzas*(window.money_size+window.money_crust+window.money_toppings)
     $("#output4").text(total);
 
 
