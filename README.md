@@ -17,7 +17,7 @@ At OneTimePizza.com we offer service to our customers at their place of comfort
     
 
 # Live link
-* *link: https://michael760odhiambo.github.io/OneTimePizza.com/
+* *link:  https://michael760odhiambo.github.io/OneTimePizza.com/
 
 # Contact
 * you can reach on social media through
